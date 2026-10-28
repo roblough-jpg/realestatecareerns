@@ -1,0 +1,82 @@
+---
+import Base from '../layouts/Base.astro';
+import Route from '../components/Route.astro';
+import LeadForm from '../components/LeadForm.astro';
+import { getPosts } from '../lib/posts';
+import { SITE, AUTHOR, OPTIMUM } from '../consts';
+
+const posts = (await getPosts()).slice(0, 5);
+---
+<Base title={SITE.name} description={SITE.description}>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Thinking about a real estate career in Nova Scotia?</h1>
+      <p class="hero-lede">Here’s the honest path from where you are to your first deal, and what it takes to build a career that lasts. Written by a broker who has hired and trained agents for 25 years.</p>
+      <Route />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Where are you starting from?</h2>
+      <div class="doors">
+        <a class="door" href="/getting-licensed/">
+          <h3>I’m not licensed yet</h3>
+          <p>What the job is really like, what it costs, how long it takes, and how to pick the brokerage you start with.</p>
+          <span class="go">Start here</span>
+        </a>
+        <a class="door" href="/growing-your-career/">
+          <h3>I’m already a realtor</h3>
+          <p>Commission splits, compliance, the tools that save you time, and what to check before you switch brokerages.</p>
+          <span class="go">Grow your career</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Latest answers</h2>
+      <ul class="answers">
+        {posts.map((p) => (
+          <li>
+            <a href={`/blog/${p.id}/`}>{p.data.title}</a>
+            <p>{p.data.description}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap prose">
+      <h2>What will it cost you to get started?</h2>
+      <p class="section-intro">Most people budget for the course and forget the rest. The calculator adds up the course, licence fees, memberships, insurance and the savings cushion you’ll want behind you.</p>
+      <a class="btn" href="/tools/licensing-cost-calculator/">Work out your costs</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="author">
+        <div class="author-mark" aria-hidden="true">RL</div>
+        <div>
+          <h2>Who writes this</h2>
+          <p>{AUTHOR.bio}</p>
+          <p><a href="/about/">More about Rob</a> or read <a href={OPTIMUM.howTo}>how to become a Realtor in Nova Scotia</a>, the step-by-step guide on the Century 21 Optimum Realty site.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <LeadForm
+        heading="Have a question about getting started?"
+        intro="Ask Rob directly. It’s a no-pressure conversation, whether you’re still deciding or already licensed somewhere else."
+        button="Send my question"
+        ghlForm="career-question"
+      />
+    </div>
+  </section>
+</Base>
