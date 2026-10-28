@@ -34,7 +34,7 @@ const planned = [
         {posts.map((p) => (
           <li><a href={`/blog/${p.id}/`}>{p.data.title}</a><p>{p.data.description}</p></li>
         ))}
-        {planned.map((t) => (<li class="planned"><span>{t}</span><p>Coming soon</p></li>))}
+        {planned.filter((t) => !posts.some((p) => p.data.title.startsWith(t))).map((t) => (<li class="planned"><span>{t}</span><p>Coming soon</p></li>))}
       </ul>
     </div>
   </section>

@@ -50,3 +50,19 @@ These figures also drive the cost calculator (`src/pages/tools/licensing-cost-ca
 | real estate license practice exam / questions | 110 / 70 |
 | is it hard to become a realtor | 70 |
 | is real estate agent a good career / a dying career | 50 / 30 |
+
+## Income (Job Bank, Government of Canada, 2021 Census data; page checked 2026-10-28) VERIFIED
+
+NOC 63101, real estate agents and salespersons, annual income. Source: https://www.jobbank.gc.ca/wagereport/occupation/6176
+
+| Area | Low | Median | High |
+| --- | --- | --- | --- |
+| Nova Scotia | $36,193 | $51,600 | $152,000 |
+| Canada | $32,867 | $58,400 | $178,000 |
+| Halifax region | $36,193 | $51,200 | $157,000 |
+| Annapolis Valley region | | $55,200 | |
+| Cape Breton region | | $55,200 | |
+| Southern region | | $50,800 | |
+| North Shore region | | $36,193 | |
+
+Job Bank outlook for Nova Scotia: "Moderate" (page modified 2026-09-24).
