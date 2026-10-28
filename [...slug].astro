@@ -1,0 +1,88 @@
+---
+import Base from '../../layouts/Base.astro';
+import LeadForm from '../../components/LeadForm.astro';
+import { render } from 'astro:content';
+import { getPosts } from '../../lib/posts';
+import { SITE, AUTHOR } from '../../consts';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+const { post } = Astro.props;
+const { Content } = await render(post);
+const d = post.data;
+const url = new URL(`/blog/${post.id}/`, SITE.url).href;
+const fmt = (x: Date) => x.toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+const trackLink = d.track === 'growing-your-career'
+  ? { name: 'Growing your career', url: '/growing-your-career/' }
+  : { name: 'Getting licensed', url: '/getting-licensed/' };
+
+const article = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: d.title,
+  description: d.description,
+  abstract: d.answer,
+  datePublished: d.published.toISOString(),
+  dateModified: (d.updated ?? d.published).toISOString(),
+  mainEntityOfPage: url,
+  inLanguage: 'en-CA',
+  author: { '@type': 'Person', name: AUTHOR.name, jobTitle: AUTHOR.jobTitle, url: AUTHOR.url, sameAs: AUTHOR.sameAs },
+  publisher: { '@id': 'https://optimumrealty.c21.ca/#org' },
+};
+const faq = d.faq.length
+  ? [{
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: d.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+    }]
+  : [];
+---
+<Base
+  title={d.title}
+  description={d.description}
+  type="article"
+  schema={[article, ...faq]}
+  breadcrumbs={[{ name: 'Home', url: '/' }, trackLink, { name: d.title, url: `/blog/${post.id}/` }]}
+>
+  {d.draft && <div class="draft-flag">Draft for Rob’s review. Not published yet.</div>}
+  <header class="article-head">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href={trackLink.url}>{trackLink.name}</a></nav>
+      <h1 class="prose">{d.title}</h1>
+      <p class="byline">By <a href="/about/">{AUTHOR.name}</a>, {AUTHOR.jobTitle}. Updated <time datetime={(d.updated ?? d.published).toISOString()}>{fmt(d.updated ?? d.published)}</time></p>
+    </div>
+  </header>
+  <article class="section">
+    <div class="wrap">
+      <div class="answer-box"><strong>The short answer</strong>{d.answer}</div>
+      <div class="post-body"><Content /></div>
+
+      {d.faq.length > 0 && (
+        <section class="post-body">
+          <h2>Common questions</h2>
+          <dl class="faq">
+            {d.faq.map((f) => (<><dt>{f.q}</dt><dd>{f.a}</dd></>))}
+          </dl>
+        </section>
+      )}
+
+      {d.sources.length > 0 && (
+        <section class="post-body sources">
+          <h2>Sources</h2>
+          <ul>{d.sources.map((s) => <li><a href={s.url}>{s.title}</a></li>)}</ul>
+        </section>
+      )}
+
+      <div style="margin-top:3rem">
+        <LeadForm
+          heading="Want to talk it through?"
+          intro="Ask Rob your questions directly. No pressure, whether you’re still deciding or already licensed."
+          button="Send my question"
+          ghlForm="career-question"
+        />
+      </div>
+    </div>
+  </article>
+</Base>

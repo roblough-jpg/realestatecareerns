@@ -1,0 +1,123 @@
+---
+import Base from '../../layouts/Base.astro';
+import LeadForm from '../../components/LeadForm.astro';
+import { OPTIMUM } from '../../consts';
+
+// Figures from Century 21 Optimum Realty's 2026 cost guide (current as of January 2026).
+// Update this block each January. Ranges are [low, high] in CAD, before HST.
+const COSTS = {
+  courseOnline: 3448.85,
+  courseClassroom: 4023.85,
+  licence: [400, 500],
+  recoveryFund: [100, 200],
+  nsar: [700, 1000],
+  crea: [350, 450],
+  eo: [400, 600],
+  marketing: [300, 600],
+  attire: [400, 800],
+  websiteCrm: [0, 2000],
+  phoneMonthly: [80, 150],
+};
+
+const tool = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'Nova Scotia real estate licensing cost calculator',
+  applicationCategory: 'FinanceApplication',
+  operatingSystem: 'Any',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'CAD' },
+};
+---
+<Base
+  title="Nova Scotia real estate licensing cost calculator"
+  description="Add up what it costs to become a realtor in Nova Scotia: the licensing course, licence fees, memberships, insurance, setup and a savings cushion."
+  schema={[tool]}
+  breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Cost calculator', url: '/tools/licensing-cost-calculator/' }]}
+>
+  <section class="article-head">
+    <div class="wrap prose">
+      <h1>What will it cost to get licensed?</h1>
+      <p>Pick your course format and enter your own living costs. The other figures come from the <a href={OPTIMUM.cost2026}>2026 cost guide</a>, shown as low and high estimates before HST.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap calc" id="calc" data-costs={JSON.stringify(COSTS)}>
+      <form onsubmit="return false">
+        <fieldset>
+          <legend>Your course</legend>
+          <label class="radio"><input type="radio" name="course" value="online" checked /> Self-paced online ($3,448.85)</label>
+          <label class="radio"><input type="radio" name="course" value="classroom" /> 16-week class ($4,023.85)</label>
+        </fieldset>
+        <fieldset>
+          <legend>Your savings cushion</legend>
+          <label>Monthly living costs ($)<input name="living" type="number" min="0" step="100" value="3000" inputmode="numeric" /></label>
+          <label>Months to cover while you build up deals<input name="months" type="number" min="0" max="24" value="6" inputmode="numeric" /></label>
+          <p class="fine">Many new agents plan for six to twelve months before steady income. Commission is paid when a deal closes, not when you start.</p>
+        </fieldset>
+        <fieldset>
+          <legend>Already covered?</legend>
+          <label class="radio"><input type="checkbox" name="crm" /> My brokerage provides a website and CRM</label>
+        </fieldset>
+      </form>
+
+      <div class="result" aria-live="polite">
+        <h2>Your estimate</h2>
+        <dl>
+          <div><dt>Course and exam</dt><dd data-out="course"></dd></div>
+          <div><dt>Licence and Recovery Fund fees</dt><dd data-out="licence"></dd></div>
+          <div><dt>NSAR, CREA and E&amp;O insurance, first year</dt><dd data-out="members"></dd></div>
+          <div><dt>Marketing, attire, website and CRM</dt><dd data-out="setup"></dd></div>
+          <div><dt>Phone and data, first year</dt><dd data-out="phone"></dd></div>
+          <div><dt>Savings cushion</dt><dd data-out="cushion"></dd></div>
+          <div class="total"><dt>Total to plan for</dt><dd data-out="total"></dd></div>
+        </dl>
+        <p class="fine" style="color:#a9b6bb;margin-top:1rem">Estimates only, before HST. Confirm current fees with NSAR and NSREC. Vehicle costs and brokerage fees vary too much to include.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <LeadForm
+        heading="Email me my full breakdown"
+        intro="Get this estimate in your inbox with a line-by-line list, so you can plan your savings."
+        button="Email my breakdown"
+        ghlForm="cost-calculator"
+      />
+    </div>
+  </section>
+</Base>
+
+<script is:inline>
+  (() => {
+    const root = document.getElementById('calc');
+    const C = JSON.parse(root.dataset.costs);
+    const form = root.querySelector('form');
+    const out = (k) => root.querySelector(`[data-out="${k}"]`);
+    const $ = (n) => new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 }).format(n);
+    const range = ([a, b]) => (a === b ? $(a) : `${$(a)} to ${$(b)}`);
+    const add = (...r) => r.reduce((t, x) => [t[0] + x[0], t[1] + x[1]], [0, 0]);
+    function calc() {
+      const f = new FormData(form);
+      const c = f.get('course') === 'classroom' ? C.courseClassroom : C.courseOnline;
+      const course = [c, c];
+      const licence = add(C.licence, C.recoveryFund);
+      const members = add(C.nsar, C.crea, C.eo);
+      const setup = add(C.marketing, C.attire, f.get('crm') ? [0, 0] : C.websiteCrm);
+      const phone = [C.phoneMonthly[0] * 12, C.phoneMonthly[1] * 12];
+      const cush = Math.max(0, +f.get('living') || 0) * Math.max(0, +f.get('months') || 0);
+      const cushion = [cush, cush];
+      const total = add(course, licence, members, setup, phone, cushion);
+      out('course').textContent = range(course);
+      out('licence').textContent = range(licence);
+      out('members').textContent = range(members);
+      out('setup').textContent = range(setup);
+      out('phone').textContent = range(phone);
+      out('cushion').textContent = range(cushion);
+      out('total').textContent = range(total);
+    }
+    form.addEventListener('input', calc);
+    calc();
+  })();
+</script>

@@ -1,0 +1,20 @@
+---
+// Placeholder until the GoHighLevel form is built.
+// Swap this markup for the GHL embed (iframe + form_embed.js) for the matching form,
+// keeping the tags listed in kb/ghl-forms.md.
+interface Props { heading: string; intro: string; button: string; ghlForm: string; }
+const { heading, intro, button, ghlForm } = Astro.props;
+const id = `lead-${ghlForm}`;
+---
+<section class="lead" aria-labelledby={`${id}-h`}>
+  <h2 id={`${id}-h`}>{heading}</h2>
+  <p>{intro}</p>
+  <form class="lead-form" data-ghl-form={ghlForm} onsubmit="event.preventDefault(); this.querySelector('.form-status').hidden = false;">
+    <label>Your name<input name="name" autocomplete="name" required /></label>
+    <label>Email<input name="email" type="email" autocomplete="email" required /></label>
+    <label>Phone (optional)<input name="phone" type="tel" autocomplete="tel" /></label>
+    <button class="btn" type="submit">{button}</button>
+    <p class="form-status" role="status" hidden>This draft form isn’t connected yet. It will send to GoHighLevel once the form is set up.</p>
+  </form>
+  <p class="fine">Your details go to Rob Lough at Century 21 Optimum Realty and nowhere else. <a href="/privacy/">Privacy</a></p>
+</section>

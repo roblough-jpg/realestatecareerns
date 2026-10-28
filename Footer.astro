@@ -1,0 +1,22 @@
+---
+import { SITE } from '../consts';
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-name">{SITE.name}</p>
+      <p>Presented by <a href={SITE.presentedByUrl}>{SITE.presentedBy}</a>, a real estate brokerage licensed in Nova Scotia. Each office is independently owned and operated.</p>
+      <p class="fine">This site is not affiliated with the Nova Scotia Real Estate Commission (NSREC) or the Nova Scotia Association of REALTORS® (NSAR). For official licensing rules, go to <a href="https://www.nsrec.ns.ca/">nsrec.ns.ca</a> and <a href="https://www.nsrealtors.ca/">nsrealtors.ca</a>.</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="/getting-licensed/">Getting licensed</a></li>
+      <li><a href="/growing-your-career/">Growing your career</a></li>
+      <li><a href="/tools/licensing-cost-calculator/">Cost calculator</a></li>
+      <li><a href="/about/">About Rob Lough</a></li>
+      <li><a href="/contact/">Contact</a></li>
+      <li><a href="/privacy/">Privacy</a></li>
+    </ul>
+  </div>
+  <div class="wrap fine">© {year} {SITE.presentedBy}. REALTOR® is a trademark controlled by The Canadian Real Estate Association (CREA).</div>
+</footer>

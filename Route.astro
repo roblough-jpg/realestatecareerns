@@ -1,0 +1,24 @@
+---
+import { OPTIMUM } from '../consts';
+// The licensing path is a real sequence, so it is drawn as one.
+// Facts from Century 21 Optimum Realty's guides (Jan 2026). Verify with NSREC/NSAR before launch.
+const stops = [
+  { name: 'Check you qualify', detail: '19 or older, high school or equivalent, background check, English requirement.', meta: 'Before you enrol', href: OPTIMUM.howTo },
+  { name: 'Take the licensing course', detail: 'The Salesperson Licensing Course through NSAR, self-paced online or a 16-week class.', meta: 'Up to 6 months, from $3,448.85', href: OPTIMUM.course },
+  { name: 'Pass the exam', detail: 'The provincial licensing exam set by the Nova Scotia Real Estate Commission.', meta: 'Within 12 months of the course', href: OPTIMUM.howLong },
+  { name: 'Choose a brokerage', detail: 'You can’t trade on your own in Nova Scotia. Your broker signs your licence application.', meta: 'Start talking early', href: '/blog/questions-to-ask-a-brokerage-before-you-sign/' },
+  { name: 'Get licensed', detail: 'Apply to NSREC, add errors and omissions insurance, and join NSAR and CREA.', meta: '6 to 12 months in total', href: OPTIMUM.cost2026 },
+];
+---
+<ol class="route" aria-label="The path to a Nova Scotia real estate licence">
+  {stops.map((s, i) => (
+    <li class="stop">
+      <span class="stop-dot" aria-hidden="true">{i + 1}</span>
+      <div class="stop-body">
+        <h3 class="stop-name"><a href={s.href}>{s.name}</a></h3>
+        <p class="stop-detail">{s.detail}</p>
+        <p class="stop-meta">{s.meta}</p>
+      </div>
+    </li>
+  ))}
+</ol>

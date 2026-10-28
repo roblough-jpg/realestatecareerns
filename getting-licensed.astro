@@ -1,0 +1,65 @@
+---
+import Base from '../layouts/Base.astro';
+import Route from '../components/Route.astro';
+import LeadForm from '../components/LeadForm.astro';
+import { getPosts } from '../lib/posts';
+import { OPTIMUM } from '../consts';
+
+const posts = (await getPosts()).filter((p) => p.data.track !== 'growing-your-career');
+const planned = [
+  'How Much Do Realtors Make in Nova Scotia? Commission, Splits and the First Year',
+  'Your First Year as a Realtor in Nova Scotia: What Nobody Tells You',
+  'How to Pay for the Nova Scotia Real Estate Licensing Course',
+  'How to Pass the Nova Scotia Real Estate Licensing Exam',
+  'Is It Hard to Become a Realtor? An Honest Answer',
+];
+---
+<Base
+  title="Getting licensed in Nova Scotia"
+  description="Thinking about becoming a realtor in Nova Scotia? Honest answers on the job, the costs, the licensing path and choosing your first brokerage."
+  breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Getting licensed', url: '/getting-licensed/' }]}
+>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Getting licensed in Nova Scotia</h1>
+      <p class="hero-lede">Five steps, usually six to twelve months. Here’s each one, with what it costs and where to find the details.</p>
+      <Route />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Answers for people still deciding</h2>
+      <ul class="answers">
+        {posts.map((p) => (
+          <li><a href={`/blog/${p.id}/`}>{p.data.title}</a><p>{p.data.description}</p></li>
+        ))}
+        {planned.map((t) => (<li class="planned"><span>{t}</span><p>Coming soon</p></li>))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap prose">
+      <h2>The full step-by-step guides</h2>
+      <p>The detailed licensing guides live on the Century 21 Optimum Realty site:</p>
+      <ul>
+        <li><a href={OPTIMUM.howTo}>How to become a Realtor in Nova Scotia</a></li>
+        <li><a href={OPTIMUM.howLong}>How long it takes</a></li>
+        <li><a href={OPTIMUM.course}>The Salesperson Licensing Course</a></li>
+        <li><a href={OPTIMUM.cost2026}>What it costs, 2026 guide</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <LeadForm
+        heading="Get the “Thinking about getting licensed” guide"
+        intro="A plain-language guide to the first year: the money, the hours and the questions to ask before you enrol. Sent to your inbox."
+        button="Send me the guide"
+        ghlForm="pre-licence-guide"
+      />
+    </div>
+  </section>
+</Base>

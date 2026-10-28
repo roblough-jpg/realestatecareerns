@@ -1,0 +1,49 @@
+---
+import Base from '../layouts/Base.astro';
+import LeadForm from '../components/LeadForm.astro';
+import { getPosts } from '../lib/posts';
+
+const posts = (await getPosts()).filter((p) => p.data.track !== 'getting-licensed');
+const planned = [
+  'Switching Brokerages in Nova Scotia: The Step-by-Step Checklist',
+  'Does Your Brokerage Post Every One of Your Listings on Social Media?',
+  'FINTRAC for Nova Scotia Agents: What You Must Collect on Every Deal',
+  'Commission Split vs. Fees: How to Compare Brokerage Offers Fairly',
+  'What BrokerageFlow Does: The Deal File That Builds Itself',
+];
+---
+<Base
+  title="Growing your real estate career in Nova Scotia"
+  description="For licensed realtors in Nova Scotia: commission splits, compliance, time-saving tools and what to check before switching brokerages."
+  breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Growing your career', url: '/growing-your-career/' }]}
+>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Growing your career as a Nova Scotia realtor</h1>
+      <p class="hero-lede">You already know how to sell. These answers are about the business around it: splits and fees, paperwork and compliance, marketing your listings, and knowing when a move makes sense.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Answers for working agents</h2>
+      <ul class="answers">
+        {posts.map((p) => (
+          <li><a href={`/blog/${p.id}/`}>{p.data.title}</a><p>{p.data.description}</p></li>
+        ))}
+        {planned.map((t) => (<li class="planned"><span>{t}</span><p>Coming soon</p></li>))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <LeadForm
+        heading="Want a confidential conversation?"
+        intro="If you’re weighing a move, talk it through with Rob. Nothing is shared with your current brokerage."
+        button="Request a confidential chat"
+        ghlForm="confidential-chat"
+      />
+    </div>
+  </section>
+</Base>

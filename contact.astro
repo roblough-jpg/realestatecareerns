@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import LeadForm from '../components/LeadForm.astro';
+---
+<Base
+  title="Talk to Rob"
+  description="Questions about a real estate career in Nova Scotia? Contact Rob Lough, Broker/Owner of Century 21 Optimum Realty. Conversations are confidential."
+  breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Contact', url: '/contact/' }]}
+>
+  <section class="section">
+    <div class="wrap">
+      <LeadForm
+        heading="Talk to Rob"
+        intro="Whether you’re thinking about getting licensed or already licensed somewhere else, send a note. Conversations are confidential."
+        button="Send my message"
+        ghlForm="contact"
+      />
+    </div>
+  </section>
+</Base>

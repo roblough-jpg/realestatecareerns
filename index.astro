@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getPosts } from '../../lib/posts';
+const posts = (await getPosts());
+---
+<Base
+  title="All answers"
+  description="Every answer on Real Estate Career NS, newest first: licensing, money, brokerages and building a career in Nova Scotia real estate."
+  breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'All answers', url: '/blog/' }]}
+>
+  <section class="section">
+    <div class="wrap">
+      <h1>All answers</h1>
+      <ul class="answers">
+        {posts.map((p) => (<li><a href={`/blog/${p.id}/`}>{p.data.title}</a><p>{p.data.description}</p></li>))}
+      </ul>
+    </div>
+  </section>
+</Base>
