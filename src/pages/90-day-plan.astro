@@ -1,0 +1,125 @@
+---
+import Base from '../layouts/Base.astro';
+import GhlForm from '../components/GhlForm.astro';
+import { AUTHOR, SITE } from '../consts';
+
+const title = 'Free 90-day plan for new real estate agents in Nova Scotia';
+const description =
+  'A week-by-week plan for your first 90 days as a new realtor in Nova Scotia: set up your business, build daily habits and work toward your first deal. Free PDF.';
+
+const faq = [
+  {
+    q: 'Who is the 90-day plan for?',
+    a: 'Newly licensed agents in Nova Scotia, and people finishing the licensing course who want to know what the first three months actually look like. Experienced agents switching brokerages can use the systems section as a reset.',
+  },
+  {
+    q: 'Do I need to be with Century 21 Optimum Realty to use it?',
+    a: 'No. It is the plan new agents at C21 Optimum work through, but the steps apply at any brokerage. Where it mentions one-on-one training, ask your own broker for the same.',
+  },
+  {
+    q: 'Will the plan tell me how much I will earn?',
+    a: 'No. Income depends on your market, your hours and your brokerage split. The plan explains why commission often arrives months after the work, so you can plan for it.',
+  },
+];
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'DigitalDocument',
+    name: 'Your First 90 Days in Real Estate',
+    description,
+    author: { '@type': 'Person', name: AUTHOR.name, jobTitle: AUTHOR.jobTitle, url: AUTHOR.url },
+    publisher: { '@id': 'https://optimumrealty.c21.ca/#org' },
+    isAccessibleForFree: true,
+    inLanguage: 'en-CA',
+    url: `${SITE.url}/90-day-plan/`,
+  },
+];
+---
+<Base
+  title={title}
+  description={description}
+  schema={schema}
+  breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Free 90-day plan', url: '/90-day-plan/' }]}
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Free PDF for new agents</p>
+      <h1>Your first 90 days in real estate</h1>
+      <p class="hero-lede">A week-by-week plan to set up your business, build the right habits and work toward your first deal. Written for Nova Scotia by a broker who has trained new agents for 25 years.</p>
+      <a class="btn btn-gold" href="#get-the-plan">Get the plan</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>What’s inside</h2>
+      <ol class="phases">
+        <li>
+          <span class="phase-days">Days 1 to 30</span>
+          <h3>Foundation before activity</h3>
+          <p>Get licensed and insured, set up your CRM, write your contact list and get one-on-one training on sales conversations, forms, viewings, open houses, inspections and listing appointments.</p>
+        </li>
+        <li>
+          <span class="phase-days">Days 31 to 60</span>
+          <h3>Activity, with someone checking in</h3>
+          <p>A daily conversation target, every contact logged, open houses, your first appointments and a weekly check-in sheet to track what’s working.</p>
+        </li>
+        <li>
+          <span class="phase-days">Days 61 to 90</span>
+          <h3>First deals, and habits that stick</h3>
+          <p>Work your first clients with your broker reviewing every form, keep your contacts warm, and set up the follow-up, prospecting and savings habits you’ll keep for years.</p>
+        </li>
+      </ol>
+      <p class="rule"><strong>The one rule running through all of it:</strong> keep working your centre of influence. The people who already know you are where most first deals come from, and the agents who last stay in touch with them every week.</p>
+    </div>
+  </section>
+
+  <section class="section" id="get-the-plan">
+    <div class="wrap">
+      <div class="lead">
+        <h2>Send me the 90-day plan</h2>
+        <p>Enter your details and the PDF arrives in your inbox in a minute or two.</p>
+        <GhlForm formId="O5LIN9EkkwiPHaQqa8q4" formName="90-Day Plan Download" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap prose">
+      <h2>Common questions</h2>
+      <dl class="faq">
+        {faq.map((f) => (<><dt>{f.q}</dt><dd>{f.a}</dd></>))}
+      </dl>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="author">
+        <div class="author-mark" aria-hidden="true">RL</div>
+        <div>
+          <h2>Who wrote it</h2>
+          <p>{AUTHOR.bio}</p>
+          <p><a href="/about/">More about Rob</a> · <a href="/growing-your-career/">Growing your career</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .eyebrow { color: var(--gold); font-weight: 650; font-size: var(--step--1); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.75rem; }
+  .phases { list-style: none; padding: 0; margin: 0 0 2rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .phases li { background: var(--white); border: 1px solid var(--line); border-top: 4px solid var(--gold); padding: 1.4rem; }
+  .phase-days { display: block; font-size: var(--step--1); font-weight: 650; color: var(--gold-ink); margin-bottom: 0.4rem; }
+  .phases p { color: var(--granite); margin: 0; }
+  .rule { max-width: 48rem; border-left: 4px solid var(--gold); background: var(--white); padding: 1rem 1.25rem; }
+  #get-the-plan .lead { max-width: 44rem; }
+  @media (max-width: 860px) { .phases { grid-template-columns: 1fr; } }
+</style>

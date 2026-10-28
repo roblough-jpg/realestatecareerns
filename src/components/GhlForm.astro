@@ -1,0 +1,28 @@
+---
+// Embeds a GoHighLevel form (C21 Optimum sub-account). The GHL workflow tied to
+// the form handles tags, the follow-up email and alerts. See kb/ghl-forms.md.
+interface Props { formId: string; formName: string; height?: number; }
+const { formId, formName, height = 640 } = Astro.props;
+---
+<div class="ghl-form">
+  <iframe
+    src={`https://api.leadconnectorhq.com/widget/form/${formId}`}
+    style={`width:100%;height:${height}px;border:none;border-radius:4px`}
+    id={`inline-${formId}`}
+    data-layout="{'id':'INLINE'}"
+    data-trigger-type="alwaysShow"
+    data-trigger-value=""
+    data-activation-type="alwaysActivated"
+    data-activation-value=""
+    data-deactivation-type="neverDeactivate"
+    data-deactivation-value=""
+    data-form-name={formName}
+    data-height={height}
+    data-layout-iframe-id={`inline-${formId}`}
+    data-form-id={formId}
+    title={formName}
+    loading="lazy"
+  ></iframe>
+  <script is:inline src="https://link.msgsndr.com/js/form_embed.js" async></script>
+</div>
+<p class="fine">Your details go to Rob Lough at Century 21 Optimum Realty and nowhere else. <a href="/privacy/">Privacy</a></p>
