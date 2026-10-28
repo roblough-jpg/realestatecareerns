@@ -4,7 +4,7 @@ The full plan lives in Rob's doc "realestatecareerns.ca Content Plan". This is t
 
 ## Launch posts (before mid-December 2026)
 
-1. [x] 10 Questions to Ask a Brokerage Before You Sign (drafted, awaiting approval)
+1. [x] 10 Questions to Ask a Brokerage Before You Sign (published 2026-10-28)
 2. [ ] How Much Do Realtors Make in Nova Scotia? Commission, Splits and the First Year
 3. [ ] Your First Year as a Realtor in Nova Scotia: What Nobody Tells You (needs Rob's own first-year notes)
 4. [ ] How to Pay for the Nova Scotia Real Estate Licensing Course

@@ -3,8 +3,8 @@ title: "10 Questions to Ask a Brokerage Before You Sign"
 description: "Choosing a brokerage in Nova Scotia? Ask these 10 questions about fees, training, support and compliance before you commit."
 track: both
 answer: "Before you join a brokerage in Nova Scotia, find out exactly what you'll pay whether you sell or not, who supports you on a live deal, and how paperwork and compliance are handled. Ask to talk to agents who work there now. The right fit matters more than the headline split."
-published: 2026-10-27
-draft: true
+published: 2026-10-28
+draft: false
 faq:
   - q: "Is it OK to interview more than one brokerage?"
     a: "Yes. Brokers expect it, and a good one will encourage you to compare. Meet two or three before you decide."
