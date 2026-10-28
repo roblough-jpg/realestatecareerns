@@ -151,7 +151,7 @@ p { margin: 0 0 1em; }
 .lead h2 { font-size: var(--step-2); }
 .lead-form { display: grid; gap: 0.9rem; margin-block: 1rem; }
 .lead-form label { display: grid; gap: 0.3rem; font-size: var(--step--1); font-weight: 500; }
-.lead-form input, .calc input, .calc select {
+.lead-form input, .lead-form select, .calc input, .calc select {
   font: inherit; padding: 0.7rem 0.8rem; border: 1px solid #b9c3c0; border-radius: 4px; background: var(--white); color: var(--ink); width: 100%;
 }
 .lead-form button { justify-self: start; }

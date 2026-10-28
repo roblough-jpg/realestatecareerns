@@ -12,6 +12,8 @@ The full plan lives in Rob's doc "realestatecareerns.ca Content Plan". This is t
 
 ## Then
 
+- Lead magnet: Free 90-Day Business Plan for new Nova Scotia agents (downloadable, gated by the GHL form)
+
 - How to Pass the Nova Scotia Real Estate Licensing Exam (with practice quiz)
 - New to Canada? The CELPIP English Requirement and Status Rules
 - What Does a Real Estate Agent Actually Do? A Nova Scotia Job Description
