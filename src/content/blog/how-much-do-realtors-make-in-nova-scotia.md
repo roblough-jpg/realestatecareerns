@@ -39,10 +39,10 @@ These are **example numbers only**. Commission is negotiated on every listing, a
 | --- | --- |
 | Sale price | $400,000 |
 | Commission to your side of the deal (example 2%) | $8,000 |
-| Your brokerage's share (example 30%) | −$2,400 |
-| Your gross commission | $5,600 |
+| Your brokerage's share (example 20%) | −$1,600 |
+| Your gross commission | $6,400 |
 
-From that $5,600 you still pay your own income tax and CPP, and your business costs: marketing, your car, your phone, and your yearly NSAR, CREA and insurance fees. That's why one sale is not one paycheque.
+From that $6,400 you still pay your own income tax and CPP, and your business costs: marketing, your car, your phone, and your yearly NSAR, CREA and insurance fees. That's why one sale is not one paycheque.
 
 ## What do realtors make in Nova Scotia on average?
 
