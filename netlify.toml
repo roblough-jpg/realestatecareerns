@@ -1,0 +1,24 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Pull request previews show draft posts so Rob can approve them. The live site never does.
+[context.deploy-preview.environment]
+  SHOW_DRAFTS = "true"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/_astro/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Netlify already sends "X-Robots-Tag: noindex" on deploy previews,
+# so preview links stay out of Google without anything extra here.
