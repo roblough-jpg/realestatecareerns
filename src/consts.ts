@@ -12,7 +12,7 @@ export const SITE = {
 export const AUTHOR = {
   name: 'Rob Lough',
   jobTitle: 'Broker/Owner, Century 21 Optimum Realty',
-  bio: 'Rob Lough is the Broker/Owner of Century 21 Optimum Realty, with 25 years in Nova Scotia real estate and five years as a certified home inspector. He leads a team of agents working across Nova Scotia, and the brokerage is growing in every region of the province.',
+  bio: 'Rob Lough is the Broker/Owner of Century 21 Optimum Realty, with 25+ years of experience in the Nova Scotia real estate world, including 5 years as an inspector. He leads a team of agents working across Nova Scotia, and the brokerage is growing in every region of the province.',
   url: 'https://realestatecareerns.ca/about/',
   sameAs: ['https://roblough.c21.ca/', 'https://optimumrealty.c21.ca/'],
 };

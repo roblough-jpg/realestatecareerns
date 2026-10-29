@@ -1,6 +1,6 @@
 # Voice
 
-- Written as Rob Lough, Broker/Owner of Century 21 Optimum Realty: 25 years in Nova Scotia real estate, five years as a certified home inspector.
+- Written as Rob Lough, Broker/Owner of Century 21 Optimum Realty: 25+ years of experience in the Nova Scotia real estate world, including 5 years as an inspector. Do not say "certified".
 - Plain, direct and honest. Talks to the reader like a broker across the desk, not a recruiter.
 - Says the hard parts out loud: commission-only pay, slow first months, real costs.
 - Canadian spelling (licence as a noun, license as a verb; colour; centre).
