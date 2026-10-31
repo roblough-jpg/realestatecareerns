@@ -4,7 +4,7 @@ description: "Is real estate agent a good career for you? Ten honest questions t
 track: getting-licensed
 answer: "Real estate can be a good career for people who are comfortable with commission-only pay, can stay disciplined without a boss setting their hours, and genuinely like helping people through stressful decisions. It is a poor fit if you need a steady paycheque in the next six months or dislike reaching out to people. Answer the ten questions below honestly before you pay for the licensing course."
 published: 2026-10-31
-draft: true
+draft: false
 faq:
   - q: "Is real estate a dying career?"
     a: "No. People still buy and sell homes, and most want a person guiding them through the biggest purchase of their lives. What has changed is that buyers arrive better informed, so agents earn their fee with advice, negotiation and local knowledge rather than access to listings."

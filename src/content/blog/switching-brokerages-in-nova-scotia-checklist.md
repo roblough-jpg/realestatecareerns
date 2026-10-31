@@ -4,7 +4,7 @@ description: "Thinking of switching real estate brokerages in Nova Scotia? The N
 track: growing-your-career
 answer: "To switch brokerages in Nova Scotia, you end your licence at your current brokerage with a Notice of Termination, then your new broker signs a Reinstatement of Licence form for the Nova Scotia Real Estate Commission. If you reinstate within 30 days the fee is $200 plus HST. Before you give notice, review your current agreement, settle pending deals and fees, and confirm your CPE and E&O insurance are up to date."
 published: 2026-10-31
-draft: true
+draft: false
 faq:
   - q: "Can I keep working while I switch brokerages?"
     a: "No. Once your termination takes effect you must stop all trading right away, including signs, ads and social media posts, until your licence is reinstated with the new brokerage. Plan the dates so the gap is as short as possible."
