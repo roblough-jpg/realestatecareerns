@@ -66,3 +66,19 @@ NOC 63101, real estate agents and salespersons, annual income. Source: https://w
 | North Shore region | | $36,193 | |
 
 Job Bank outlook for Nova Scotia: "Moderate" (page modified 2026-09-24).
+
+## Changing brokerages (NSREC "How to Terminate, Reinstate, Change Brokerages or Change Classes" and Fee Schedule, checked 2026-10-31) VERIFIED
+
+Sources: https://nsrec.ns.ca/licensees/licensing/licence-changes and https://nsrec.ns.ca/licensees/licensing/licensing-forms-fee-schedule
+
+| Fact | Status |
+| --- | --- |
+| Terminate with a Notice of Termination: email it to the licensing officer with your final day of trading, or use the Licensee Portal (immediate, no future date) | VERIFIED |
+| Either the licensee or the broker can initiate termination; no fee | VERIFIED |
+| Once terminated, stop all trading immediately, including signs, ads and social media | VERIFIED |
+| Missed CPE must be completed before reinstatement; E&O must be active | VERIFIED |
+| Reinstatement of Licence form, signed by the new broker or managing associate broker | VERIFIED |
+| Reinstatement fee: $200 + HST within 30 days of terminating; $385 + HST after 30 days | VERIFIED |
+| Over 90 days: new criminal record check (issued within 6 months). Two years or more: retake the course and exam | VERIFIED |
+| Changing agency model: complete the agency course through NSAR within six weeks of reinstating | VERIFIED |
+| Under common law the brokerage owns the listing; the old brokerage does not have to release it, though most will (Rob: "I definitely would") | Rob, 2026-10-31 |

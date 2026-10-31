@@ -8,7 +8,7 @@ The full plan lives in Rob's doc "realestatecareerns.ca Content Plan". This is t
 2. [x] How Much Do Realtors Make in Nova Scotia? Commission, Splits and the First Year (published 2026-10-28)
 3. [ ] Your First Year as a Realtor in Nova Scotia: What Nobody Tells You (needs Rob's own first-year notes)
 4. [ ] How to Pay for the Nova Scotia Real Estate Licensing Course
-5. [ ] Switching Brokerages in Nova Scotia: The Step-by-Step Checklist (with downloadable checklist)
+5. [x] Switching Brokerages in Nova Scotia: The Step-by-Step Checklist (drafted 2026-10-31; downloadable version still to do)
 
 ## Then
 
@@ -18,5 +18,6 @@ The full plan lives in Rob's doc "realestatecareerns.ca Content Plan". This is t
 - New to Canada? The CELPIP English Requirement and Status Rules
 - What Does a Real Estate Agent Actually Do? A Nova Scotia Job Description
 - Is It Hard to Become a Realtor? An Honest Answer
+- [x] Is Being a Real Estate Agent a Good Career? An Honest Self-Check (drafted 2026-10-31)
 - Does Your Brokerage Post Every One of Your Listings on Social Media? (once List Launch is live for all agents)
 - Send Documents on the Go by Talking to Your Phone (BrokerageFlow Ask AI, once live)
