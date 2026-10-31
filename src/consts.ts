@@ -23,6 +23,6 @@ export const OPTIMUM = {
   howLong: 'https://optimumrealty.c21.ca/how-long-does-it-take-to-become-a-realtor-in-nova-scotia',
   course: 'https://optimumrealty.c21.ca/salesperson-licensing-course-for-nova-scotia',
   cost2026: 'https://optimumrealty.c21.ca/how-much-does-it-cost-to-become-a-realtor-in-nova-scotia-2026-guide',
-  whyJoin: 'https://optimumrealty.c21.ca/c21-optimum-realty-career',
+  whyJoin: 'https://optimumrealty.c21.ca/join-century-21-optimum-realty-real-estate-careers-in-nova-scotia',
   join: 'https://optimumrealty.c21.ca/join-century-21-optimum-realty-real-estate-careers-in-nova-scotia',
 };

@@ -16,7 +16,7 @@ sources:
   - title: "How to become a Realtor in Nova Scotia, Century 21 Optimum Realty"
     url: "https://optimumrealty.c21.ca/how-to-become-a-realtor-in-nova-scotia"
   - title: "Why join Century 21 Optimum Realty"
-    url: "https://optimumrealty.c21.ca/c21-optimum-realty-career"
+    url: "https://optimumrealty.c21.ca/join-century-21-optimum-realty-real-estate-careers-in-nova-scotia"
 ---
 
 Every brokerage looks good in a recruiting meeting. These questions get past the pitch to what your day-to-day will actually be like, whether you're newly licensed or thinking about a move.
