@@ -11,7 +11,7 @@ faq:
   - q: "How much does it cost to change brokerages in Nova Scotia?"
     a: "NSREC charges no fee for the Notice of Termination. Reinstating at the new brokerage is $200 plus HST if you do it within 30 days of terminating, or $385 plus HST after that."
   - q: "Do my listings come with me?"
-    a: "Not automatically. Read your listing agreements and your agreement with your current brokerage, and talk to your broker before you assume anything. Plan how your current clients will be looked after either way."
+    a: "Not automatically. Under common law the listing belongs to the brokerage, not to you, so your current brokerage doesn't have to release it. Most brokers will work something out if you ask, and I always would. Talk to your broker before you give notice."
   - q: "Do I have to tell my current broker first?"
     a: "Either you or your broker can submit the Notice of Termination, but it's professional, and usually smoother, to tell your broker in person before it's filed."
 sources:
@@ -53,7 +53,11 @@ Line up the dates. Have the Reinstatement of Licence form filled in and signed b
 
 ## What happens to my listings and clients?
 
-Don't assume they move with you. Your listing agreements and your brokerage agreement decide it. Have an honest conversation with your current broker about each one. Whatever is agreed, your clients should never feel the change. Someone has to be clearly responsible for every listing and every deal that's in progress.
+Don't assume they move with you. Under common law, a listing belongs to the brokerage, not to the individual agent. That means your current brokerage doesn't have to release your listings when you leave.
+
+In practice, most brokers will work something out with a departing agent, especially when the seller wants to stay with you. I always would. Ask early, ask in person, and put what you agree in writing.
+
+Whatever is decided, your clients should never feel the change. Someone has to be clearly responsible for every listing and every deal that's in progress.
 
 ## After the move
 

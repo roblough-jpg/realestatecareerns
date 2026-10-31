@@ -81,4 +81,4 @@ Sources: https://nsrec.ns.ca/licensees/licensing/licence-changes and https://nsr
 | Reinstatement fee: $200 + HST within 30 days of terminating; $385 + HST after 30 days | VERIFIED |
 | Over 90 days: new criminal record check (issued within 6 months). Two years or more: retake the course and exam | VERIFIED |
 | Changing agency model: complete the agency course through NSAR within six weeks of reinstating | VERIFIED |
-| Whether listings stay with the old brokerage | NOT VERIFIED. Posts say "check your agreements and talk to your broker" only |
+| Under common law the brokerage owns the listing; the old brokerage does not have to release it, though most will (Rob: "I definitely would") | Rob, 2026-10-31 |
