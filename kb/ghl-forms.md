@@ -1,23 +1,21 @@
 # GoHighLevel forms
 
-Each `<LeadForm ghlForm="...">` on the site becomes a GHL form embed. Every contact gets the `career-site` tag plus the ones below.
+All forms live in the C21 Optimum GHL sub-account (location sEj5l11RCVsSyM6iTFws).
 
-| ghlForm | Where it appears | Tags | Workflow |
-| --- | --- | --- | --- |
-| career-question | Home, every post | career-site, question | Alert Rob; reply within one business day |
-| pre-licence-guide | Getting licensed | career-site, pre-licence | Send the guide; start pre-licence nurture; invite to a career info session |
-| confidential-chat | Growing your career | career-site, licensed-agent | Alert Rob; add to recruiting pipeline; start recruiting sequence |
-| cost-calculator | Cost calculator | career-site, pre-licence, calculator | Email the breakdown; start pre-licence nurture |
-| contact | Contact page | career-site | Alert Rob |
-| brokerageflow-demo (later) | BrokerageFlow posts | career-site, licensed-agent, demo | Calendar booking; reminders; recruiting pipeline |
+| Form | ID | Where it appears | Workflow | What happens |
+| --- | --- | --- | --- | --- |
+| Career Site Inquiry | xdCbAXJeaRoZ3NLSxI0z | Every `<LeadForm>`: home, Getting licensed, Growing your career, Contact, cost calculator, every blog post | Career Site: Inquiry (published 2026-10-31) | Tags career-site + career-inquiry; emails Rob with name, email, phone, stage and message; stage tag; texts Rob for licensed-and-looking |
+| 90-Day Plan Download | O5LIN9EkkwiPHaQqa8q4 | /90-day-plan/ | Career Site: 90-Day Plan Download (published 2026-10-31) | Tags career-site + lead-magnet-90-day; emails the PDF; emails Rob; stage tag; texts Rob for licensed-and-looking |
 
-## "What best describes you?" (on every form)
+GHL records the page each submission came from, so one inquiry form covers every page. Don't promise anything in a `<LeadForm>` heading that the workflow doesn't send (no guides or breakdowns unless a workflow delivers them).
 
-Each answer adds a tag and decides the follow-up, whichever form it came from.
+## "What best describes you?" (custom field what_best_describes_you)
 
 | Answer | Tag | Follow-up |
 | --- | --- | --- |
-| I'm thinking about a real estate career | stage-considering | Pre-licence nurture; cost calculator and first-year posts |
-| I'm taking the licensing course | stage-in-course | Exam prep quiz, "when to talk to brokerages", invite to meet Rob before licensing |
-| I'm licensed and looking for a brokerage | stage-licensed-looking | Alert Rob same day; book a confidential chat |
-| I'm licensed and open to a conversation | stage-licensed-open | Recruiting nurture; BrokerageFlow and List Launch posts |
+| I'm thinking about a real estate career | stage-considering | Pre-licence nurture (to build) |
+| I'm taking the licensing course | stage-in-course | Exam prep quiz, invite to meet Rob before licensing (to build) |
+| I'm licensed and looking for a brokerage | stage-licensed-looking | Text to Rob right away; book a confidential chat |
+| I'm licensed and open to a conversation | stage-licensed-open | Recruiting nurture (to build) |
+
+The message box is custom field career_site_message.

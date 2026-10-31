@@ -1,29 +1,14 @@
 ---
-// Placeholder until the GoHighLevel form is built.
-// Swap this markup for the GHL embed (iframe + form_embed.js) for the matching form,
-// keeping the tags listed in kb/ghl-forms.md.
-interface Props { heading: string; intro: string; button: string; ghlForm: string; }
-const { heading, intro, button, ghlForm } = Astro.props;
-const id = `lead-${ghlForm}`;
+// The site-wide "Career Site Inquiry" GoHighLevel form (C21 Optimum sub-account).
+// Workflow "Career Site: Inquiry" tags career-site + career-inquiry, emails Rob,
+// tags the stage from "What best describes you?" and texts Rob for licensed-and-looking.
+// GHL records the page each submission came from. See kb/ghl-forms.md.
+import GhlForm from './GhlForm.astro';
+interface Props { heading: string; intro: string; }
+const { heading, intro } = Astro.props;
 ---
-<section class="lead" aria-labelledby={`${id}-h`}>
-  <h2 id={`${id}-h`}>{heading}</h2>
+<section class="lead" aria-label={heading}>
+  <h2>{heading}</h2>
   <p>{intro}</p>
-  <form class="lead-form" data-ghl-form={ghlForm} onsubmit="event.preventDefault(); this.querySelector('.form-status').hidden = false;">
-    <label>Your name<input name="name" autocomplete="name" required /></label>
-    <label>Email<input name="email" type="email" autocomplete="email" required /></label>
-    <label>Phone (optional)<input name="phone" type="tel" autocomplete="tel" /></label>
-    <label>What best describes you?
-      <select name="stage" required>
-        <option value="" disabled selected>Choose one</option>
-        <option value="considering">I'm thinking about a real estate career</option>
-        <option value="in-course">I'm taking the licensing course</option>
-        <option value="licensed-looking">I'm licensed and looking for a brokerage</option>
-        <option value="licensed-open">I'm licensed and open to a conversation</option>
-      </select>
-    </label>
-    <button class="btn" type="submit">{button}</button>
-    <p class="form-status" role="status" hidden>This draft form isn’t connected yet. It will send to GoHighLevel once the form is set up.</p>
-  </form>
-  <p class="fine">Your details go to Rob Lough at Century 21 Optimum Realty and nowhere else. <a href="/privacy/">Privacy</a></p>
+  <GhlForm formId="xdCbAXJeaRoZ3NLSxI0z" formName="Career Site Inquiry" height={760} />
 </section>

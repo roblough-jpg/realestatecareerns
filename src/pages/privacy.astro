@@ -1,13 +1,45 @@
 ---
 import Base from '../layouts/Base.astro';
 import { SITE } from '../consts';
+const updated = 'October 31, 2026';
 ---
-<Base title="Privacy" description="How Real Estate Career NS handles the information you share through its forms." breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Privacy', url: '/privacy/' }]}>
+<Base title="Privacy" description="How Real Estate Career NS and Century 21 Optimum Realty collect, use and protect the information you share through this site." breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Privacy', url: '/privacy/' }]}>
   <section class="section">
     <div class="wrap prose">
       <h1>Privacy</h1>
-      <p>[Draft placeholder. Replace with Century 21 Optimum Realty’s privacy policy before launch.]</p>
-      <p>When you fill in a form on {SITE.name}, your name, email and phone number go to Rob Lough at {SITE.presentedBy} so he can reply. They are not sold or shared. You can ask to have your details removed at any time.</p>
+      <p class="fine">Last updated {updated}</p>
+
+      <p>{SITE.name} ({SITE.url.replace('https://', '')}) is run by Rob Lough, Broker/Owner of {SITE.presentedBy}, a real estate brokerage in Nova Scotia that is independently owned and operated. This page explains what we collect, why, and the choices you have.</p>
+
+      <h2>What we collect</h2>
+      <ul>
+        <li><strong>What you type into a form:</strong> your name, email, phone number, which option describes you best, and any message you write.</li>
+        <li><strong>Basic visit information:</strong> the page you sent the form from and standard technical details your browser shares, such as the type of device. We do not use advertising trackers on this site.</li>
+      </ul>
+
+      <h2>Why we collect it</h2>
+      <ul>
+        <li>To reply to your question or send what you asked for, such as the 90-day plan.</li>
+        <li>To follow up about a real estate career with {SITE.presentedBy}, if that’s why you got in touch.</li>
+        <li>If you tick the consent box on a form, to send you occasional text or email updates. You can opt out at any time.</li>
+      </ul>
+      <p>We do not sell, rent or trade your information.</p>
+
+      <h2>Where it’s stored</h2>
+      <p>Form submissions are stored in our customer relationship management system (HighLevel), which we use to manage contacts and send emails and texts. Our website is hosted by Netlify. These providers may store data outside Canada, including in the United States, where it may be subject to the laws of that country. Only Rob Lough and authorized staff at {SITE.presentedBy} can see your details.</p>
+
+      <h2>Your choices</h2>
+      <ul>
+        <li><strong>Unsubscribe:</strong> use the link in any email, or reply STOP to any text.</li>
+        <li><strong>See, correct or delete your information:</strong> ask us and we will do it. If we have a legal or regulatory reason to keep a record, we will tell you.</li>
+      </ul>
+
+      <h2>How long we keep it</h2>
+      <p>We keep your contact details while you’re in touch with us about a career, and delete them on request. Information connected to a real estate transaction is kept as long as Nova Scotia real estate and anti-money-laundering rules require.</p>
+
+      <h2>Contact</h2>
+      <p>For privacy questions or requests, use the <a href="/contact/">contact form</a> or call the {SITE.presentedBy} office at 902-444-1333. Mail: 24 Logiealmond Close, Unit 24, Dartmouth, NS B3B 0C8.</p>
+      <p>We handle personal information in line with Canada’s Personal Information Protection and Electronic Documents Act (PIPEDA). If you are not satisfied with our answer, you can contact the Office of the Privacy Commissioner of Canada at <a href="https://www.priv.gc.ca/">priv.gc.ca</a>.</p>
     </div>
   </section>
 </Base>
