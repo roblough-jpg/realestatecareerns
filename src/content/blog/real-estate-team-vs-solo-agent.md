@@ -47,6 +47,10 @@ Either way, you're licensed under a brokerage, and your broker is responsible fo
 - **Agents with a steady base of past clients and referrals** often do better solo.
 - **Part-time agents** can benefit from a team's showing coverage, if the team is open to part-time members.
 
+## How it works at Century 21 Optimum Realty
+
+We don't have teams to join yet. What new agents get instead is one-on-one training, both in the office and out in the field on real appointments. You get the hands-on learning a team offers while building your own name from day one.
+
 ## Questions to ask before you join a team
 
 - What's the split on team leads, and what's the split on my own clients?

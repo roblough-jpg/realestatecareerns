@@ -49,6 +49,8 @@ Set a date to decide. "Part-time for the first year, then full-time if I've clos
 - Who covers a showing or an offer if I'm at my other job?
 - Is training offered at times I can attend?
 
+At Century 21 Optimum Realty, we do take part-time agents. I'd still want to talk through how you'll cover your clients when you're at your other job, because that's what protects them and you.
+
 For the full list, see [10 questions to ask a brokerage before you sign](/blog/questions-to-ask-a-brokerage-before-you-sign/).
 
 ## What should I do next?

@@ -83,3 +83,12 @@ Sources: https://nsrec.ns.ca/licensees/licensing/licence-changes and https://nsr
 | Over 90 days: new criminal record check (issued within 6 months). Two years or more: retake the course and exam | VERIFIED |
 | Changing agency model: complete the agency course through NSAR within six weeks of reinstating | VERIFIED |
 | Under common law the brokerage owns the listing; the old brokerage does not have to release it, though most will (Rob: "I definitely would") | Rob, 2026-10-31 |
+
+## Century 21 Optimum Realty policies (Rob, 2026-11-01)
+
+| Fact | Status |
+| --- | --- |
+| Optimum takes part-time agents | Rob's statement |
+| Rob is open to discussing course costs with recruits | Rob's statement |
+| No teams to join yet | Rob's statement |
+| One-on-one training in the field and in the office | Rob's statement |

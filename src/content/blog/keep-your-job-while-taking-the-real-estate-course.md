@@ -48,7 +48,7 @@ Not the day you pass the exam. Before you give notice, have these in place:
 
 ## Can I stay part-time in real estate after I'm licensed?
 
-Some people do, at least at first. It comes with real trade-offs, and not every brokerage accepts part-time agents. I cover it in [part-time real estate in Nova Scotia](/blog/part-time-real-estate-agent-nova-scotia/).
+Some people do, at least at first. It comes with real trade-offs, and not every brokerage accepts part-time agents. We do at Century 21 Optimum Realty. I cover it in [part-time real estate in Nova Scotia](/blog/part-time-real-estate-agent-nova-scotia/).
 
 ## What should I do next?
 

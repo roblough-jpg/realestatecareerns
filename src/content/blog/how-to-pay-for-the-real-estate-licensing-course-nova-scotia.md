@@ -45,7 +45,7 @@ No. The course isn't approved for federal or provincial student loans. NSAR also
 - **Savings.** The simplest option, and it means you start your career without new debt.
 - **A line of credit.** Lower interest than a credit card. Have a plan to pay it down, because your first commission may be months away.
 - **A family loan.** Common, and fine, as long as everyone agrees in writing on when it gets paid back.
-- **Help from a brokerage.** Some brokerages offer reimbursement or a signing bonus to offset education costs. Read the conditions, especially any clawback if you leave early.
+- **Help from a brokerage.** Some brokerages offer reimbursement or a signing bonus to offset education costs. Read the conditions, especially any clawback if you leave early. At Century 21 Optimum Realty, I'm open to talking about course costs with anyone who's serious about joining us.
 - **Keep your current job while you study.** The online course is self-paced, which lets you keep earning. I cover that in [can I keep my job while taking the course](/blog/keep-your-job-while-taking-the-real-estate-course/).
 
 I'd avoid putting the full amount on a high-interest credit card. The interest keeps adding up through the slow first months.
