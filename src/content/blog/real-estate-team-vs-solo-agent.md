@@ -4,7 +4,7 @@ description: "Real estate team vs. solo agent in Nova Scotia: how each works, wh
 track: both
 answer: "On a team, you usually get leads, coaching and support in exchange for a bigger share of your commission and less control over your brand. As a solo agent, you keep more of each deal and build your own name, but you find your own business. New agents often learn faster on a good team; experienced agents with a steady referral base often do better solo."
 published: 2026-11-01
-draft: true
+draft: false
 faq:
   - q: "Is it better for a new agent to join a team?"
     a: "Often, if the team actually trains you and gives you real opportunities. A team that hands you nothing but a lower split is a poor deal."
@@ -19,7 +19,7 @@ sources:
     url: "https://optimumrealty.c21.ca/join-century-21-optimum-realty-real-estate-careers-in-nova-scotia"
 ---
 
-Some of my agents work on teams and some work on their own. Both can work well. The right choice depends on where you are in your career and what you need most right now.
+We don't have teams at Century 21 Optimum Realty yet, but some of our agents partner up with another agent on certain deals. Teams and solo work can both work well. The right choice depends on where you are in your career and what you need most right now.
 
 ## What's the difference between a real estate team and a solo agent?
 
@@ -49,7 +49,9 @@ Either way, you're licensed under a brokerage, and your broker is responsible fo
 
 ## How it works at Century 21 Optimum Realty
 
-We don't have teams to join yet. What new agents get instead is one-on-one training, both in the office and out in the field on real appointments. You get the hands-on learning a team offers while building your own name from day one.
+We don't have teams to join yet. Some of our agents partner up with another agent on certain deals, and new agents get one-on-one training, both in the office and out in the field on real appointments. You get the hands-on learning a team offers while building your own name from day one.
+
+If you already lead or belong to a team at another brokerage, we're open to bringing your team over. [Let's talk confidentially](/contact/).
 
 ## Questions to ask before you join a team
 

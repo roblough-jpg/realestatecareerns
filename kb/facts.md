@@ -92,3 +92,5 @@ Sources: https://nsrec.ns.ca/licensees/licensing/licence-changes and https://nsr
 | Rob is open to discussing course costs with recruits | Rob's statement |
 | No teams to join yet | Rob's statement |
 | One-on-one training in the field and in the office | Rob's statement |
+| 2027 SLC classroom (Zoom) sessions: Feb 1 to May 19, 2027 and Sep 8 to Dec 20, 2027; online starts any time | NSAR SLC page, checked 2026-11-01 | VERIFIED |
+| Some Optimum agents partner up with another agent on certain deals; Optimum is open to accepting teams from other brokerages | Rob's statement, 2026-11-01 | Rob's statement |

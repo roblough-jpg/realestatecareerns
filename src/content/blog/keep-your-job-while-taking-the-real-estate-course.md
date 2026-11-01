@@ -4,7 +4,7 @@ description: "Can you keep your job while taking the real estate course in Nova 
 track: getting-licensed
 answer: "Yes. Most people who keep a full-time job take NSAR's online, self-paced Salesperson Licensing Course, which gives you six months to finish. The classroom version runs three full weekdays a week for 16 weeks, so it rarely works around a day job. Keep your income through the course and exam, and plan your switch to real estate for after you're licensed."
 published: 2026-11-01
-draft: true
+draft: false
 faq:
   - q: "How long do I have to finish the online real estate course?"
     a: "Six months from when you enrol. After you finish, you have 12 months to pass the provincial licensing exam."

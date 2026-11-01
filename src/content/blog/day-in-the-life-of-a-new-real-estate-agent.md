@@ -4,7 +4,7 @@ description: "A day in the life of a new real estate agent in Nova Scotia: what 
 track: getting-licensed
 answer: "A new agent's day is mostly reaching out to people, learning and following up, with showings and client meetings fitted in, often in the evening. There's no boss setting your schedule, so the agents who do well treat the morning like a job: calls and messages first, then training and admin, then appointments. Expect long days, little early pay, and a lot of variety."
 published: 2026-11-01
-draft: true
+draft: false
 faq:
   - q: "How many hours does a new real estate agent work?"
     a: "There's no set number, but most new agents work full days and some evenings and weekends. The first year is when you build the habits and the client list that pay off later."

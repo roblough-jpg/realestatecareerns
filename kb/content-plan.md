@@ -7,7 +7,7 @@ The full plan lives in Rob's doc "realestatecareerns.ca Content Plan". This is t
 1. [x] 10 Questions to Ask a Brokerage Before You Sign (published 2026-10-28)
 2. [x] How Much Do Realtors Make in Nova Scotia? Commission, Splits and the First Year (published 2026-10-28)
 3. [ ] Your First Year as a Realtor in Nova Scotia: What Nobody Tells You (needs Rob's own first-year notes)
-4. [ ] How to Pay for the Nova Scotia Real Estate Licensing Course
+4. [x] How to Pay for the Nova Scotia Real Estate Licensing Course
 5. [x] Switching Brokerages in Nova Scotia: The Step-by-Step Checklist (drafted 2026-10-31; downloadable version still to do)
 
 ## Then

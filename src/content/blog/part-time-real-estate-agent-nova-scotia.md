@@ -4,7 +4,7 @@ description: "Can you be a part-time real estate agent in Nova Scotia? What it r
 track: getting-licensed
 answer: "Yes, you can hold a Nova Scotia real estate licence and work at it part-time, but your clients won't keep part-time hours. You'll still pay yearly licence, membership and insurance costs, and growth is usually slower. Many brokerages prefer new agents to be full-time, so ask about their expectations before you sign."
 published: 2026-11-01
-draft: true
+draft: false
 faq:
   - q: "Do part-time agents pay the same fees as full-time agents?"
     a: "The yearly licence, NSAR and CREA memberships, errors and omissions insurance and continuing education cost the same whether you do two deals or twenty. Brokerage fees vary, so ask."

@@ -4,7 +4,7 @@ description: "How to pay for the Nova Scotia real estate licensing course: the 2
 track: getting-licensed
 answer: "The Nova Scotia Salesperson Licensing Course costs $3,418.86 online or $3,988.86 in the classroom, including tax and the textbook, and payment in full is due when you register. The course isn't approved for federal or provincial student loans, so most people pay from savings, a line of credit or a family loan, or with help from a brokerage. Budget for the exam, licence and first-year fees too, not just the course."
 published: 2026-11-01
-draft: true
+draft: false
 faq:
   - q: "Can I use a student loan for the real estate course in Nova Scotia?"
     a: "No. The Salesperson Licensing Course isn't approved for federal or provincial student loans, so you'll need another way to pay."
@@ -31,8 +31,18 @@ The course is the first big cheque you write on the way to a real estate licence
 
 The Nova Scotia Association of REALTORS (NSAR) runs the Salesperson Licensing Course. Both prices include tax and the textbook.
 
-- **Online, self-paced:** $3,418.86. You have six months to finish.
+- **Online, self-paced:** $3,418.86. You can start any time, and you have six months to finish.
 - **Classroom on Zoom:** $3,988.86. It runs 16 weeks, Mondays, Wednesdays and Fridays, 9:00 to 4:00.
+
+## When are the 2027 course dates?
+
+| Option | Dates | Tuition |
+| --- | --- | --- |
+| Classroom (Zoom) | February 1 to May 19, 2027 | $3,988.86 |
+| Classroom (Zoom) | September 8 to December 20, 2027 | $3,988.86 |
+| Online, self-paced | Start any time, six months to finish | $3,418.86 |
+
+Payment is due in full when you register, so if you're aiming for a classroom session, have the money ready before registration opens.
 
 After the course, the licensing exam is $100 plus tax ($114), paid to the Nova Scotia Real Estate Commission. You have to pass it within 12 months of finishing the course.
 
