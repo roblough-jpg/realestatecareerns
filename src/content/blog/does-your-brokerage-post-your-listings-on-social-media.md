@@ -1,8 +1,8 @@
 ---
 title: "Does Your Brokerage Post Every One of Your Listings on Social Media?"
-description: "Does your brokerage market your listings on social media? What to expect, what to ask, and how Century 21 Optimum Realty posts every listing."
+description: "Does your brokerage market your listings on social media? What to ask, and how Century 21 Optimum Realty posts every listing with videos and seller reports."
 track: growing-your-career
-answer: "Many brokerages leave social media marketing to the agent. At Century 21 Optimum Realty, every listing is posted to the brokerage's social media automatically when it goes on the market, again when the price changes, and when it sells. When you compare brokerages, ask exactly which listing events get posted, where, and whether it costs you anything."
+answer: "Many brokerages leave social media marketing to the agent. At Century 21 Optimum Realty, every listing is posted to the brokerage's Facebook and Instagram automatically: when it goes on the market, with a video for new listings, again for open houses and price changes, and when it sells. Agents also get a report they can share with their sellers. When you compare brokerages, ask exactly which listing events get posted, where, and whether it costs you anything."
 published: 2026-11-01
 draft: true
 faq:
@@ -27,13 +27,18 @@ Ask ten agents how their brokerage markets their listings on social media and yo
 
 ## How it works at Century 21 Optimum Realty
 
-Every listing is posted to our brokerage social media automatically, with a branded graphic and a written caption:
+Every listing is posted automatically to our brokerage [Facebook](https://www.facebook.com/C21OptimumRealty) and [Instagram](https://www.instagram.com/c21optimum/) pages, with branded graphics and a written caption:
 
-- **When it goes on the market**
+- **When it goes on the market,** including a video post for every new listing
+- **When there's an open house**
 - **When the price changes**
 - **When it sells**
 
 You don't have to request it, design anything or remember to do it. That leaves you free to share the posts with the people who know you, which is where they do the most good.
+
+**Seller reports.** You also get a report to share with your seller, so they can see how their listing has been marketed. It's an easy update to send, and it shows the work you're doing.
+
+**Coming next.** We're setting up every agent with their own account, where they'll see their own reports. The goal is to post listings straight to each agent's own social media pages too.
 
 ## Questions to ask any brokerage
 
@@ -47,4 +52,4 @@ Add these to your [10 questions to ask a brokerage before you sign](/blog/questi
 
 ## Want to see examples?
 
-Send me a note below and I'll show you recent posts for our agents' listings.
+See recent listing posts on our [Facebook](https://www.facebook.com/C21OptimumRealty) and [Instagram](https://www.instagram.com/c21optimum/) pages, or send me a note below and I'll walk you through a seller report.
