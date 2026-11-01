@@ -55,7 +55,7 @@ Answer each one honestly. Count your clear "yes" answers.
 
 - **Commission only.** No sales, no pay. Job Bank lists a Nova Scotia median of about $51,600 a year for real estate agents, but the range runs from about $36,000 to $152,000, and first-year agents usually sit at the low end. I break this down in [how much realtors make in Nova Scotia](/blog/how-much-do-realtors-make-in-nova-scotia/).
 - **Slow start.** It often takes a few months before your first deal closes and you're paid.
-- **Upfront and yearly costs.** In 2026 the online licensing course alone is about $3,450, before the licence, memberships and insurance. Try the [licensing cost calculator](/tools/licensing-cost-calculator/) for your own number.
+- **Upfront and yearly costs.** In 2026 the online licensing course alone is about $3,420, before the licence, memberships and insurance. Try the [licensing cost calculator](/tools/licensing-cost-calculator/) for your own number.
 - **It's a business, not a job.** Marketing, bookkeeping and setting money aside for tax are on you.
 
 ## How long does it take to find out if it's for you?

@@ -10,10 +10,10 @@ Status: VERIFIED = checked against the official source. TO VERIFY = from a secon
 | Must be at least 19 with high school or equivalent | Optimum how-to page | 2026-10-27 | TO VERIFY with NSREC |
 | Salesperson Licensing Course is run by NSAR, online self-paced or a 16-week class | Optimum how-to page; NSAR site listing | 2026-10-27 | TO VERIFY with NSAR |
 | 16-week class runs on Zoom, Mon/Wed/Fri 9:00 to 4:00 | NSAR search result | 2026-10-27 | TO VERIFY with NSAR |
-| Online course must be completed within 6 months of enrolling | Optimum how-to page | 2026-10-27 | TO VERIFY with NSAR |
-| Exam must be passed within 12 months of finishing the course | NSAR search result; Optimum cost guide | 2026-10-27 | TO VERIFY with NSREC |
-| Exam pass mark is 70.4% | Google AI Overview citing NSREC | 2026-10-27 | TO VERIFY with NSREC |
-| English requirement: CELPIP-G level 7 on all four parts, within 2 years, before course registration | Google AI Overview citing NSAR | 2026-10-27 | TO VERIFY with NSAR |
+| Online course must be completed within 6 months of enrolling | NSAR SLC page | 2026-11-01 | VERIFIED |
+| Exam must be passed within 12 months of finishing the course (NSREC by-law 321); two attempts, then wait 12 months from course end | NSREC Licensing Exams page | 2026-11-01 | VERIFIED |
+| Exam pass mark is 70.4% for the SLC exam | NSREC Licensing Exams page | 2026-11-01 | VERIFIED |
+| English requirement: CELPIP-G level 7 on all four parts, same score report, valid 2 years, before course registration, no exceptions | NSAR SLC page | 2026-11-01 | VERIFIED |
 | Citizenship or permanent residency required when applying for the licence | Google AI Overview (from a brokerage site) | 2026-10-27 | TO VERIFY with NSREC. Conflicts with Optimum page, which says a work permit is enough |
 | Salespeople cannot trade independently; the broker signs the licence application | Optimum how-to page | 2026-10-27 | TO VERIFY with NSREC |
 | E&O insurance through NSAR is needed to activate the licence | Optimum how-to page | 2026-10-27 | TO VERIFY with NSAR |
@@ -24,8 +24,9 @@ Status: VERIFIED = checked against the official source. TO VERIFY = from a secon
 
 | Item | Amount |
 | --- | --- |
-| Course, online | $3,448.85 incl. tax and textbook |
-| Course, classroom | $4,023.85 |
+| Course, online | $3,418.86 incl. tax and textbook (NSAR SLC page, checked 2026-11-01, VERIFIED) |
+| Course, classroom | $3,988.86 incl. tax and textbook (NSAR SLC page, checked 2026-11-01, VERIFIED) |
+| Licensing exam fee | $100 + tax ($114), paid through the NSREC Licensee Portal (NSREC, checked 2026-11-01, VERIFIED) |
 | Initial licence fee | $400 to $500 plus HST |
 | Recovery Fund, one time | $100 to $200 |
 | NSAR membership, yearly | $700 to $1,000 |

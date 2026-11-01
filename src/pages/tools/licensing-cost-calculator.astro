@@ -3,11 +3,12 @@ import Base from '../../layouts/Base.astro';
 import LeadForm from '../../components/LeadForm.astro';
 import { OPTIMUM } from '../../consts';
 
-// Figures from Century 21 Optimum Realty's 2026 cost guide (current as of January 2026).
+// Course fees from NSAR's Salesperson Licensing Course page (checked 2026-11-01).
+// Other figures from Century 21 Optimum Realty's 2026 cost guide (current as of January 2026).
 // Update this block each January. Ranges are [low, high] in CAD, before HST.
 const COSTS = {
-  courseOnline: 3448.85,
-  courseClassroom: 4023.85,
+  courseOnline: 3418.86,
+  courseClassroom: 3988.86,
   licence: [400, 500],
   recoveryFund: [100, 200],
   nsar: [700, 1000],
@@ -46,8 +47,8 @@ const tool = {
       <form onsubmit="return false">
         <fieldset>
           <legend>Your course</legend>
-          <label class="radio"><input type="radio" name="course" value="online" checked /> Self-paced online ($3,448.85)</label>
-          <label class="radio"><input type="radio" name="course" value="classroom" /> 16-week class ($4,023.85)</label>
+          <label class="radio"><input type="radio" name="course" value="online" checked /> Self-paced online ($3,418.86)</label>
+          <label class="radio"><input type="radio" name="course" value="classroom" /> 16-week class ($3,988.86)</label>
         </fieldset>
         <fieldset>
           <legend>Your savings cushion</legend>

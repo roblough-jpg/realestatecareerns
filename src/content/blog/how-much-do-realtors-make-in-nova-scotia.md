@@ -2,7 +2,7 @@
 title: "How Much Do Realtors Make in Nova Scotia? Commission, Splits and the First Year"
 description: "How much do realtors make in Nova Scotia? The median is about $51,600 a year. Here's how commission and splits work, and what your first year looks like."
 track: getting-licensed
-answer: "Realtors in Nova Scotia are paid by commission, not salary. Statistics Canada's latest figures put the median for real estate agents in the province at about $51,600 a year, with a range from roughly $36,000 to $152,000. Income depends on how many deals you close, and the first year is often the leanest because you're paid only when a deal closes."
+answer: "Realtors in Nova Scotia are paid by commission, not salary. Job Bank, the federal government's job site, using 2021 Census data, puts the median for real estate agents in the province at about $51,600 a year, with a range from roughly $36,000 to $152,000. Income depends on how many deals you close, and the first year is often the leanest because you're paid only when a deal closes."
 published: 2026-10-28
 draft: false
 faq:
