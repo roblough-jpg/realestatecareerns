@@ -4,7 +4,7 @@ description: "Comparing brokerage offers in Nova Scotia? How to weigh commission
 track: both
 answer: "To compare brokerage offers fairly, add up everything you would pay each brokerage in a year, including the split, caps, desk fees, technology fees, franchise or transaction fees, at the number of deals you realistically expect to close. Then compare what you keep, not the headline split. A higher split with high monthly fees can leave you with less, especially in a slow year."
 published: 2026-11-01
-draft: true
+draft: false
 faq:
   - q: "Is a 100% commission brokerage always better?"
     a: "No. You usually pay higher fixed fees, and you pay them whether you sell or not. It can suit a high-volume agent with a steady pipeline and can cost a newer agent more than a split."

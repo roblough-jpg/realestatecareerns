@@ -4,7 +4,7 @@ description: "FINTRAC rules for Nova Scotia real estate agents: when to verify i
 track: growing-your-career
 answer: "When you act for a buyer or seller in Nova Scotia, FINTRAC requires you to verify your client's identity, keep an information record for each client and any unrepresented party, and keep a receipt of funds record for any amount you receive. Cash or virtual currency of $10,000 or more also needs a large transaction report. Records are kept for at least five years, and your broker is responsible for the compliance program, but suspicious transaction reporting applies to you too."
 published: 2026-11-01
-draft: true
+draft: false
 faq:
   - q: "Do I have to verify the identity of an unrepresented buyer or seller?"
     a: "Yes. FINTRAC requires an information record for any party to the deal who isn't represented by a broker or sales representative, and you must verify the identity of everyone you keep an information record for."
@@ -15,6 +15,8 @@ faq:
   - q: "Does FINTRAC apply to rentals?"
     a: "FINTRAC's obligations for this sector apply when you act as an agent for a buyer or seller. They don't apply to property management activities such as leasing."
 sources:
+  - title: "Fintracker"
+    url: "https://fintracker.ca"
   - title: "Real estate brokers or sales representatives, and real estate developers, FINTRAC"
     url: "https://fintrac-canafe.canada.ca/re-ed/real-eng"
   - title: "When to verify the identity of persons and entities, real estate, FINTRAC"
@@ -57,7 +59,11 @@ Records are kept for at least five years and must be produced within 30 days if 
 
 If you work for a brokerage, your broker is responsible for most of it, including the compliance program: a compliance officer, written policies, a risk assessment, training, and an effectiveness review every two years. Suspicious transaction reporting is the exception. It sits with you and your broker.
 
-That's why your brokerage's system matters. At Century 21 Optimum Realty we have a designated compliance officer, everyone completes AML training every year, and our deal files in [BrokerageFlow](/blog/what-brokerageflow-does/) keep identification and records with each deal instead of in a pile of emails.
+That's why your brokerage's system matters. At Century 21 Optimum Realty:
+
+- **We use [Fintracker](https://fintracker.ca) for client identification.** You scan your client's government photo ID and much of the FINTRAC form fills itself in. Clients can also be verified remotely, with a facial match to their ID. It also screens clients against sanctions lists, watchlists and politically exposed person databases.
+- **We have a designated compliance officer,** and everyone completes AML training every year.
+- **Our deal files in [BrokerageFlow](/blog/what-brokerageflow-does/)** keep identification and records with each deal instead of in a pile of emails.
 
 ## What should I do next?
 

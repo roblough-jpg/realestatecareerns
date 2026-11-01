@@ -2,9 +2,9 @@
 title: "What BrokerageFlow Does: The Deal File That Builds Itself"
 description: "What BrokerageFlow does for agents at Century 21 Optimum Realty: one deal file for documents, compliance and broker review, with Ask AI built in."
 track: growing-your-career
-answer: "BrokerageFlow is the deal and compliance system I built for agents at Century 21 Optimum Realty. Each deal gets one file where documents, FINTRAC records and broker review live together, so nothing is lost in email. Agents can email documents straight into a file, ask compliance questions with Ask AI, and complete their annual AML training in the same place."
+answer: "BrokerageFlow is the deal and compliance system I built for agents at Century 21 Optimum Realty. Each deal gets one file where documents, FINTRAC records and broker review live together, so nothing is lost in email. Agents can email documents straight into a file, ask compliance questions and send documents with Ask AI, and complete their annual AML training in the same place."
 published: 2026-11-01
-draft: true
+draft: false
 faq:
   - q: "Does BrokerageFlow replace WEBForms or Authentisign?"
     a: "No. Offers are still written and signed in WEBForms and Authentisign. BrokerageFlow is where the signed documents, records and review for each deal are stored and shared."
@@ -27,7 +27,7 @@ BrokerageFlow is the deal and compliance system agents at Century 21 Optimum Rea
 
 - **One file per deal.** Signed documents, identification and records sit with the deal they belong to, not in your inbox.
 - **Email documents in.** Send documents to the BrokerageFlow email address and they land in the right file.
-- **Ask AI.** Ask a question about a form or a compliance rule and get a fast answer, right inside the file.
+- **Ask AI.** Ask a question about a form or a compliance rule and get a fast answer, right inside the file. Ask AI can also email documents for you, so you can get a file to a lawyer, lender or client from your phone.
 - **Broker review in the same place.** I review your file in BrokerageFlow, so you know what's missing before it becomes a problem.
 - **Every offer attempt kept.** If a buyer writes on one property, then another, the history stays together instead of starting over.
 - **Annual AML training built in.** Video modules and quizzes, with a certificate when you pass.

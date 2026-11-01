@@ -4,7 +4,7 @@ description: "Does your brokerage market your listings on social media? What to 
 track: growing-your-career
 answer: "Many brokerages leave social media marketing to the agent. At Century 21 Optimum Realty, every listing is posted to the brokerage's Facebook and Instagram automatically: when it goes on the market, with a video for new listings, again for open houses and price changes, and when it sells. Agents also get a report they can share with their sellers. When you compare brokerages, ask exactly which listing events get posted, where, and whether it costs you anything."
 published: 2026-11-01
-draft: true
+draft: false
 faq:
   - q: "Should my brokerage post my listings, or should I?"
     a: "Both, ideally. Brokerage posts reach the brokerage's audience. Your own posts reach the people who know you, which is where most of your future business comes from."
