@@ -1,0 +1,32 @@
+---
+import { TESTIMONIALS } from '../data/testimonials';
+interface Props { heading?: string; }
+const { heading = 'From our agents' } = Astro.props;
+const items = TESTIMONIALS.filter((t) => t.name);
+---
+{items.length > 0 && (
+  <section class="section">
+    <div class="wrap">
+      <h2>{heading}</h2>
+      <div class="testimonials">
+        {items.map((t) => (
+          <figure class="testimonial">
+            <img src={t.photo} alt={`${t.name}, REALTOR® at Century 21 Optimum Realty`} width="120" height="160" loading="lazy" />
+            <div>
+              <blockquote>{t.quote.map((p) => <p>{p}</p>)}</blockquote>
+              <figcaption><strong>{t.name}</strong><br /><span class="fine">{t.since}</span></figcaption>
+            </div>
+          </figure>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+<style>
+  .testimonials { display: grid; gap: var(--space); }
+  .testimonial { margin: 0; display: grid; grid-template-columns: 96px 1fr; gap: var(--space); align-items: start; background: var(--white); border: 1px solid var(--line); border-radius: 4px; padding: var(--space); }
+  @media (min-width: 640px) { .testimonial { grid-template-columns: 120px 1fr; } }
+  .testimonial img { width: 100%; height: auto; border-radius: 4px; display: block; }
+  .testimonial blockquote { margin: 0; border-left: 4px solid var(--gold); padding-left: 16px; }
+  .testimonial blockquote p { margin: 0 0 12px; }
+</style>
