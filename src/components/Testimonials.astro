@@ -3,14 +3,23 @@ import { TESTIMONIALS } from '../data/testimonials';
 interface Props { heading?: string; }
 const { heading = 'From our agents' } = Astro.props;
 const items = TESTIMONIALS.filter((t) => t.name);
+const carousel = items.length > 1;
 ---
 {items.length > 0 && (
   <section class="section">
     <div class="wrap">
-      <h2>{heading}</h2>
-      <div class="testimonials">
-        {items.map((t) => (
-          <figure class="testimonial">
+      <div class="t-head">
+        <h2>{heading}</h2>
+        {carousel && (
+          <div class="t-nav">
+            <button type="button" class="t-prev" aria-label="Previous testimonial">‹</button>
+            <button type="button" class="t-next" aria-label="Next testimonial">›</button>
+          </div>
+        )}
+      </div>
+      <div class={carousel ? 't-track' : 't-single'} role={carousel ? 'region' : undefined} aria-label={carousel ? 'Agent testimonials' : undefined} tabindex={carousel ? 0 : undefined}>
+        {items.map((t, i) => (
+          <figure class="testimonial" aria-label={carousel ? `${i + 1} of ${items.length}` : undefined}>
             <img src={t.photo} alt={`${t.name}, REALTOR® at Century 21 Optimum Realty`} width="120" height="160" loading="lazy" />
             <div>
               <blockquote>{t.quote.map((p) => <p>{p}</p>)}</blockquote>
@@ -22,11 +31,28 @@ const items = TESTIMONIALS.filter((t) => t.name);
     </div>
   </section>
 )}
+
+<script>
+  document.querySelectorAll('.t-track').forEach((track) => {
+    const nav = track.parentElement?.querySelector('.t-nav');
+    const step = (dir: number) => track.scrollBy({ left: dir * track.clientWidth, behavior: 'smooth' });
+    nav?.querySelector('.t-prev')?.addEventListener('click', () => step(-1));
+    nav?.querySelector('.t-next')?.addEventListener('click', () => step(1));
+  });
+</script>
+
 <style>
-  .testimonials { display: grid; gap: var(--space); }
-  .testimonial { margin: 0; display: grid; grid-template-columns: 96px 1fr; gap: var(--space); align-items: start; background: var(--white); border: 1px solid var(--line); border-radius: 4px; padding: var(--space); }
+  .t-head { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+  .t-nav { display: flex; gap: 8px; }
+  .t-nav button { width: 44px; height: 44px; border-radius: 50%; border: 2px solid var(--gold); background: var(--white); color: var(--ink); font-size: 26px; line-height: 1; cursor: pointer; }
+  .t-nav button:hover { background: var(--gold); }
+  .t-track { display: grid; grid-auto-flow: column; grid-auto-columns: 100%; gap: var(--space); overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+  .t-track::-webkit-scrollbar { display: none; }
+  .t-track > .testimonial { scroll-snap-align: start; }
+  .testimonial { margin: 0; display: grid; grid-template-columns: 1fr; gap: var(--space); align-items: start; background: var(--white); border: 1px solid var(--line); border-radius: 4px; padding: var(--space); }
   @media (min-width: 640px) { .testimonial { grid-template-columns: 120px 1fr; } }
-  .testimonial img { width: 100%; height: auto; border-radius: 4px; display: block; }
+  .testimonial img { width: 96px; height: auto; border-radius: 4px; display: block; }
+  @media (min-width: 640px) { .testimonial img { width: 100%; } }
   .testimonial blockquote { margin: 0; border-left: 4px solid var(--gold); padding-left: 16px; }
   .testimonial blockquote p { margin: 0 0 12px; }
 </style>
