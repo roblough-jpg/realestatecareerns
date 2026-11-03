@@ -16,7 +16,7 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     name: 'Dale Quinlan',
-    since: 'Experienced REALTOR® with Century 21 Optimum Realty',
+    since: 'REALTOR® for 26 years, with Century 21 Optimum Realty since November 2024',
     photo: '/media/agents/dale-quinlan.jpg',
     quote: [
       'When I was advised, on relatively short notice, that my previous brokerage, Red & White Realty, would be closing, I took some time to research my options. I wanted to find a brokerage that was progressive, forward-thinking, and could provide me with the tools, support, and opportunities to continue growing my business. It quickly became clear that Century 21 Optimum Realty was exactly what I was looking for.',
