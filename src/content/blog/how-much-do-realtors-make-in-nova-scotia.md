@@ -8,7 +8,7 @@ updated: 2026-11-07
 draft: false
 faq:
   - q: "How much does a realtor make on a sale in Nova Scotia?"
-    a: "Agents typically earn around 2% per end, give or take, meaning per side of the deal they represent, buyer or seller. On a $400,000 sale that's about $8,000 for one end, before the brokerage's share, taxes and business costs. Commission is always negotiated."
+    a: "Agents typically earn around 2% per end, give or take, meaning per side of the deal they represent, buyer or seller. On Nova Scotia's October 2026 average price of $468,050, that's about $9,361 for one end, before the brokerage's share, taxes and business costs. Commission is always negotiated."
   - q: "Do realtors in Nova Scotia get a base salary?"
     a: "Almost never. Most realtors are self-employed and earn commission on deals that close. Some team assistants and administrative roles are salaried, but a licensed agent selling real estate is usually paid by commission only."
   - q: "How long until I get my first commission cheque?"
@@ -38,16 +38,16 @@ The commission on a sale is negotiated between the seller and the listing broker
 
 In my experience, agents in Nova Scotia typically earn around 2% per end, give or take. An "end" is one side of the deal: representing the buyer or representing the seller. Commission is always negotiated, so it varies from deal to deal.
 
-The example below uses that 2%. The brokerage share is an **example only**, because every brokerage's split is different.
+The example below uses Nova Scotia's average home price for October 2026, $468,050, and that 2%. The brokerage share is an **example only**, because every brokerage's split is different.
 
 | Step | Example |
 | --- | --- |
-| Sale price | $400,000 |
-| Commission for your end of the deal (about 2%) | $8,000 |
-| Your brokerage's share (example 20%) | −$1,600 |
-| Your gross commission | $6,400 |
+| Sale price (Nova Scotia average, October 2026) | $468,050 |
+| Commission for your end of the deal (about 2%) | $9,361 |
+| Your brokerage's share (example 20%) | −$1,872 |
+| Your gross commission | $7,489 |
 
-From that $6,400 you still pay your own income tax and CPP, and your business costs: marketing, your car, your phone, and your yearly NSAR, CREA and insurance fees. That's why one sale is not one paycheque. To compare what different brokerages leave you with, see [commission split vs. fees](/blog/commission-split-vs-fees-compare-brokerage-offers/).
+From that $7,489 you still pay your own income tax and CPP, and your business costs: marketing, your car, your phone, and your yearly NSAR, CREA and insurance fees. That's why one sale is not one paycheque. To compare what different brokerages leave you with, see [commission split vs. fees](/blog/commission-split-vs-fees-compare-brokerage-offers/).
 
 ## What do realtors make in Nova Scotia on average?
 

@@ -96,3 +96,4 @@ Sources: https://nsrec.ns.ca/licensees/licensing/licence-changes and https://nsr
 | Some Optimum agents partner up with another agent on certain deals; Optimum is open to accepting teams from other brokerages | Rob's statement, 2026-11-01 | Rob's statement |
 
 | Agents typically earn about 2% per end (one side: buyer or seller), give or take; commission is negotiated | Rob's statement, 2026-11-07 | Rob's statement |
+| Nova Scotia average home price, October 2026: $468,050 | Rob's statement, 2026-11-07 | Rob's statement |
