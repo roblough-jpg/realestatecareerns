@@ -94,3 +94,5 @@ Sources: https://nsrec.ns.ca/licensees/licensing/licence-changes and https://nsr
 | One-on-one training in the field and in the office | Rob's statement |
 | 2027 SLC classroom (Zoom) sessions: Feb 1 to May 19, 2027 and Sep 8 to Dec 20, 2027; online starts any time | NSAR SLC page, checked 2026-11-01 | VERIFIED |
 | Some Optimum agents partner up with another agent on certain deals; Optimum is open to accepting teams from other brokerages | Rob's statement, 2026-11-01 | Rob's statement |
+
+| Agents typically earn about 2% per end (one side: buyer or seller), give or take; commission is negotiated | Rob's statement, 2026-11-07 | Rob's statement |
