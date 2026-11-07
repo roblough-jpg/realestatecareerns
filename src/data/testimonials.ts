@@ -25,4 +25,16 @@ export const TESTIMONIALS: Testimonial[] = [
       'Looking back, I am so glad I took the time to research my options and made the move to Century 21 Optimum Realty. It has been a great decision, and I truly feel I found a brokerage that supports me as an agent, encourages growth, and provides the resources needed to succeed.',
     ],
   },
+  {
+    name: 'Margo Whitman',
+    since: 'REALTOR® with Century 21 Optimum Realty',
+    photo: '/media/agents/margo-whitman.jpg',
+    quote: [
+      'One of the most important priorities for me in my career and life is developing genuine and meaningful relationships, so choosing the perfect fit for me was important. This is one of the biggest reasons I felt right at home at Century 21 Optimum Realty with both owners Rob and Keith and their incredible team!',
+      'I have been blown away by the genuine care and concern for every REALTOR® at the brokerage. Rob and Keith NEVER hesitate to make themselves available or return a call quickly when they know you need them. I have had complicated commercial transaction questions, and Rob brings so much experience to the table and is thoughtful every step of the way when he helps you! This kind of support and help means a lot in a highly competitive and unpredictable market.',
+      'I absolutely love Keith’s energy, discipline and his professional work ethic, and all the skills and experience he brings to the table. I wanted a work culture that challenges you to grow into the best version of yourself, personally and in your career, and I couldn’t have asked for a better balance of both with my new team!',
+      'Rob’s tech-driven savviness and knowledge base is incredible! He is constantly developing platforms that make our busy lives easier and more productive, as well as always taking the time to ask for our opinions to make sure he gives us the very best tools to grow our business or to make our life balance easier to prioritize family commitments. Both Rob and Keith are highly committed to work and personal life balance and always keep our well-being as a priority. I appreciate everything they do for us so much!',
+      'I’m so glad I took the time to have that coffee with Keith! Best decision I could’ve made was to join the Century 21 Optimum team!',
+    ],
+  },
 ];
