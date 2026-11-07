@@ -97,3 +97,4 @@ Sources: https://nsrec.ns.ca/licensees/licensing/licence-changes and https://nsr
 
 | Agents typically earn about 2% per end (one side: buyer or seller), give or take; commission is negotiated | Rob's statement, 2026-11-07 | Rob's statement |
 | Nova Scotia average home price, October 2026: $468,050 | Rob's statement, 2026-11-07 | Rob's statement |
+| Halifax-Dartmouth average home price, October 2026: $624,740 | Rob's statement, 2026-11-07 | Rob's statement |
