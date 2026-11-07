@@ -27,7 +27,7 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     name: 'Margo Whitman',
-    since: 'REALTOR® with Century 21 Optimum Realty',
+    since: 'REALTOR® for 20+ years, with Century 21 Optimum Realty since May 2026',
     photo: '/media/agents/margo-whitman.jpg',
     quote: [
       'One of the most important priorities for me in my career and life is developing genuine and meaningful relationships, so choosing the perfect fit for me was important. This is one of the biggest reasons I felt right at home at Century 21 Optimum Realty with both owners Rob and Keith and their incredible team!',
