@@ -2,7 +2,7 @@
 title: "Does Your Brokerage Post Every One of Your Listings on Social Media?"
 description: "Does your brokerage market your listings on social media? What to ask, and how Century 21 Optimum Realty posts every listing with videos and seller reports."
 track: growing-your-career
-answer: "Many brokerages leave social media marketing to the agent. At Century 21 Optimum Realty, our List Launch system posts every listing to the brokerage's Facebook and Instagram automatically: when it goes on the market, with a video for new listings, again for open houses and price changes, and when it sells. Agents also get a report they can share with their sellers. When you compare brokerages, ask exactly which listing events get posted, where, and whether it costs you anything."
+answer: "Many brokerages leave social media marketing to the agent. At Century 21 Optimum Realty, our List Launch system posts every listing automatically to eight of the brokerage's social media platforms, including Facebook and Instagram: when it goes on the market, with a video for new listings, again for open houses and price changes, and when it sells. Agents also get a report they can share with their sellers. When you compare brokerages, ask exactly which listing events get posted, where, and whether it costs you anything."
 published: 2026-11-01
 updated: 2026-11-23
 draft: false
@@ -12,7 +12,7 @@ faq:
   - q: "Do sellers care about social media?"
     a: "Sellers want to see their home marketed. Being able to show a seller exactly where and when their listing was posted is a strong part of a listing presentation."
   - q: "What should I ask a brokerage about listing marketing?"
-    a: "Which listing events are posted, on which platforms, how quickly, who writes the captions, and whether there's a cost to you."
+    a: "Which listing events are posted, on how many platforms, how quickly, who writes the captions, and whether there's a cost to you."
 sources:
   - title: "Join Century 21 Optimum Realty"
     url: "https://optimumrealty.c21.ca/join-century-21-optimum-realty-real-estate-careers-in-nova-scotia"
@@ -28,7 +28,7 @@ Ask ten agents how their brokerage markets their listings on social media and yo
 
 ## How it works at Century 21 Optimum Realty
 
-Our List Launch system, which I built for our agents, posts every listing automatically to our brokerage [Facebook](https://www.facebook.com/C21OptimumRealty) and [Instagram](https://www.instagram.com/c21optimum/) pages, with branded graphics and a written caption:
+Our List Launch system, which I built for our agents, posts every listing automatically to eight of our brokerage's social media platforms, including [Facebook](https://www.facebook.com/C21OptimumRealty) and [Instagram](https://www.instagram.com/c21optimum/), with branded graphics and a written caption:
 
 - **When it goes on the market,** including a video post for every new listing
 - **When there's an open house**
